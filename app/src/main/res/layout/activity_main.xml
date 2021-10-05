@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nameGame"
+        android:textSize="@dimen/sizeCybergame"
+        android:textColor="@color/black"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/sizeViewCyberImage"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="@dimen/sizeImageWidth"
+            android:layout_height="@dimen/sizeImageHeight"
+            android:background="@drawable/navi" />
+        <View
+            android:layout_width="@dimen/sizeViewBetweenImage"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="@dimen/sizeImageWidth"
+            android:layout_height="@dimen/sizeImageHeight"
+            android:background="@drawable/gambit1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txt_counter"
+            android:layout_width="@dimen/sizeNumbersScoreWidth"
+            android:layout_height="@dimen/sizeNumbersScoreHeigth"
+            android:gravity="center"
+            android:textColor="@color/shet_blue"
+            android:textSize="@dimen/sizeNumbersText" />
+
+        <View
+            android:layout_width="@dimen/sizeViewBetweenNumbersShet"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/shet"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sizeTextColon" />
+        <View
+            android:layout_width="@dimen/sizeViewBetweenNumbersShet"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/txt_counter2"
+            android:layout_width="@dimen/sizeNumbersScoreWidth"
+            android:layout_height="@dimen/sizeNumbersScoreHeigth"
+            android:gravity="center"
+            android:textColor="@color/shet_red"
+            android:textSize="@dimen/sizeNumbersText" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sizeBetweenScoreButtons"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="@dimen/sizeButtonsWidth"
+            android:layout_height="@dimen/sizeButtonsHeight"
+            android:background="@color/colorButtons"
+            android:onClick="onClickBtnAddBlu"
+            android:text="@string/navi"
+            android:textColor="@color/blue" />
+
+        <View
+            android:layout_width="@dimen/sizeBetweenButtons"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:layout_width="@dimen/sizeButtonsWidth"
+            android:layout_height="@dimen/sizeButtonsHeight"
+            android:background="@color/colorButtons"
+            android:onClick="onClickBtnAddRed"
+            android:text="@string/gambit"
+            android:textColor="@color/text_red_button" />
+
+    </LinearLayout>
+
+</LinearLayout>

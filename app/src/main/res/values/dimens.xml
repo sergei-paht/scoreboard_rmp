@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fon_border">10dp</dimen>
+    <dimen name="sizeCybergame">40sp</dimen>
+    <dimen name="sizeViewCyberImage">40dp</dimen>
+    <dimen name="sizeImageWidth">106dp</dimen>
+    <dimen name="sizeImageHeight">98dp</dimen>
+    <dimen name="sizeViewBetweenImage">100dp</dimen>
+    <dimen name="sizeNumbersScoreWidth">106dp</dimen>
+    <dimen name="sizeNumbersScoreHeigth">106dp</dimen>
+    <dimen name="sizeNumbersText">50sp</dimen>
+    <dimen name="sizeViewBetweenNumbersShet">45dp</dimen>
+    <dimen name="sizeTextColon">40sp</dimen>
+    <dimen name="sizeBetweenScoreButtons">100dp</dimen>
+    <dimen name="sizeButtonsWidth">116dp</dimen>
+    <dimen name="sizeButtonsHeight">69dp</dimen>
+    <dimen name="sizeBetweenButtons">100dp</dimen>
+    <dimen name="landSizeImageWidth">93dp</dimen>
+    <dimen name="landSizeImageHeight">74dp</dimen>
+    <dimen name="landSizeViewBetweenImages">218dp</dimen>
+    <dimen name="landSizeNumbers">50sp</dimen>
+    <dimen name="landSizeColon">40sp</dimen>
+    <dimen name="landSizeBetweenNumbersColon">40dp</dimen>
+    <dimen name="landSizeBetweenScoreButtons">30dp</dimen>
+    <dimen name="landSizeButtonsWidth">116dp</dimen>
+    <dimen name="landSizeButtonsHeight">69dp</dimen>
+    <dimen name="landSizeBetweenButtons">100dp</dimen>
+</resources>
